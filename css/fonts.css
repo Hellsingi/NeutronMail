@@ -1,0 +1,55 @@
+@font-face {
+  font-style: normal;
+  font-weight: 700;
+  font-family: "TitilliumWeb";
+
+  src: url("../assets/fonts/titilliumweb-bold.woff2") format("woff2"),
+  url("../assets/fonts/titilliumweb-bold.woff") format("woff");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 400;
+  font-family: "TitilliumWeb";
+
+  src: url("../assets/fonts/titilliumweb-regular.woff2") format("woff2"),
+  url("../assets/fonts/titilliumweb-regular.woff") format("woff");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 600;
+  font-family: "TitilliumWeb";
+
+  src: url("../assets/fonts/titilliumweb-semibold.woff2") format("woff2"),
+  url("../assets/fonts/titilliumweb-semibold.woff") format("woff");
+}
+
+@font-face {
+  font-style: italic;
+  font-weight: 400;
+  font-family: "Malaga-OTCE";
+
+  src: url("../assets/fonts/MalagaOT-RegItalic.woff2") format("woff2"),
+  url("../assets/fonts/MalagaOT-RegItalic.woff") format("woff");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 900;
+  font-family: "Font Awesome 5 Free";
+
+  font-display: auto;
+  src: url("../assets/fonts/fa-solid-900.woff2") format("woff2"),
+  url("../assets/fonts/fa-solid-900.woff") format("woff");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 400;
+  font-family: "Font Awesome 5 Brands";
+
+  font-display: auto;
+  src: url("../assets/fonts/fa-brands-400.woff") format("woff2"),
+  url("../assets/fonts/fa-brands-400.woff") format("woff");
+}

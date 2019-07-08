@@ -1,0 +1,181 @@
+.lead {
+    padding: 156px 0 187px;
+  
+    background: url("../assets/imgs/background.jpg") no-repeat 50% 100% / contain;
+}
+
+.lead__title {
+    margin: 0;
+    padding: 0;
+  
+    font-weight: 600;
+    font-size: 6rem;
+    text-align: center;
+    color: #636363;
+    text-transform: capitalize;
+    letter-spacing: 0.2px;
+}
+  
+.lead__text {
+    margin: 0;
+    padding: 12px 0 73px;
+  
+    font-weight: 400;
+    font-size: 3.6rem;
+    text-align: center;
+    color: #464646;
+    letter-spacing: 0.5px;
+}
+  
+.lead__text span {
+    padding-left: 5px;
+  
+    color: #fc2028;
+}
+  
+.social-links-aside {
+    position: fixed;
+    top: 40%;
+    right: 26px;
+}
+  
+.social-links-aside__link {
+    position: relative;
+  
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 3px;
+  
+    color: #676766;
+}
+  
+.social-links-aside__link::before {
+    position: absolute;
+    top: 18%;
+    left: 20%;
+  
+    font-size: 2.1rem;
+    font-family: "Font Awesome 5 Brands";
+}
+  
+.social-links-aside__link--googleplus::before {
+    content: "\f0d4";
+    top: 21%;
+}
+  
+.social-links-aside__link--googleplus:hover,
+.social-links-aside__link--googleplus:focus {
+    color: #e94030;
+}
+  
+.social-links-aside__link--facebook::before {
+    content: "\f09a";
+}
+  
+.social-links-aside__link--facebook:hover,
+.social-links-aside__link--facebook:focus {
+    color: #4267b2;
+}
+  
+.social-links-aside__link--twitter::before {
+    content: "\f081";
+    top: 15%;
+}
+  
+.social-links-aside__link--twitter:hover,
+.social-links-aside__link--twitter:focus {
+    color: #1da1f2;
+}
+  
+.get-app-links-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 50px;
+    padding-left: 20px;
+}
+  
+.get-app-links-list__item {
+    margin-right: 21px;
+}
+  
+.get-app-links-list__item:first-child {
+    margin-right: 25px;
+}
+  
+.get-app-links-list__link {
+    display: inline-block;
+    box-sizing: border-box;
+    min-width: 46px;
+    min-height: 46px;
+    padding: 10px 20px;
+  
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: #ffffff;
+    text-decoration: none;
+    letter-spacing: 0.2px;
+  
+    background-color: #4a1c50c5;
+    border-radius: 30px;;
+}
+  
+.get-app-links-list__link:hover,
+.get-app-links-list__link:focus {
+    transform: scale(1.05);
+  }
+  
+.get-app-links-list__link--create {
+    position: relative;
+  
+    min-width: 246px;
+    min-height: 56px;
+    padding: 16px 30px 15px;
+  
+    text-align: center;
+  
+    background: linear-gradient(90deg, #646c93, #63678f, #614578, #5f2e69);
+    box-shadow: 0 7px 9px 0 rgba(99, 114, 149, 0.15),
+    0 13px 21px 0 rgba(20, 80, 204, 0.27),
+    0 13px 21px 0 rgba(0, 0, 0, 0.15),
+    0 4px 16px 0 rgba(102, 145, 233, 0.33),
+    0 4px 16px 0 rgba(0, 0, 0, 0.09),
+    0 3px 9px 0 rgba(53, 103, 205, 0.09),
+    0 3px 9px 0 rgba(0, 0, 0, 0.09),
+    0 3px 3px 0 rgba(102, 145, 233, 0.09),
+    0 3px 3px 0 rgba(0, 0, 0, 0.17),
+    0 0 7px 0 rgba(95, 46, 106, 0.25);
+}
+  
+.get-app-links-list__link--appstore,
+.get-app-links-list__link--goggleplay {
+    position: relative;
+    top: 1px;
+}
+  
+.get-app-links-list__link--appstore::before,
+.get-app-links-list__link--goggleplay::before {
+    position: absolute;
+  
+    font-family: "Font Awesome 5 Brands";
+    color: #ffffff;
+}
+  
+.get-app-links-list__link--appstore::before {
+    content: "\f179";
+    top: 24%;
+    left: 32%;
+  
+    font-size: 2.2rem;
+}
+  
+.get-app-links-list__link--goggleplay::before {
+    content: "\f3ab";
+    top: 25%;
+    left: 30%;
+  
+    font-size: 2.1rem;
+}
+  

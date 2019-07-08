@@ -1,0 +1,320 @@
+@media (max-width: 1400px) {
+    .get-app-links-list {
+      background-position-x: 47.5%;
+    }
+  }
+  
+  
+  @media (max-width: 1292px) {
+    .get-app-links-list {
+      background-position-x: 47%;
+    }
+  
+    .content {
+      padding-top: 15px;
+    }
+  
+    .navigation {
+      grid-template-rows: auto auto;
+      grid-template-columns: auto;
+      grid-template-areas: "site-nav site-nav"
+      "user-nav user-nav";
+    }
+  
+    .site-navigation,
+    .user-navigation {
+      justify-content: flex-end;
+    }
+  
+    .user-navigation__button {
+      margin-left: 10px;
+    }
+  }
+  
+  @media (max-width: 1084px) {
+    .get-app-links-list {
+      background-position-x: 45.5%;
+    }
+  
+    .lead {
+      padding-top: 70px;
+    }
+  
+    .download {
+      grid-template-rows: repeat(3, auto);
+      grid-template-columns: 1fr 6fr 7fr;
+      grid-template-areas: ". d__title ."
+      ". d__text ."
+      ". d__links .";
+      padding-top: 40px;
+      padding-bottom: 60px;
+    }
+  
+    .download__title,
+    .download__text {
+      color: #101010;
+    }
+  
+    .partners {
+      padding-bottom: 30px;
+    }
+  
+    .partners-links-list {
+      justify-content: space-around;
+    }
+  
+    .footer__contacts::before,
+    .partners__text::after,
+    .footer__neutronmail::after,
+    .footer__company::after {
+      display: none;
+    }
+  
+    .footer .container {
+      grid-template-rows: repeat(4, auto);
+      grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
+      grid-template-areas: ". f__contacts f__contacts f__contacts  ."
+      ". f__company f__legal  f__NeutronMail ."
+      " f__social f__social f__social f__social ."
+      "f__copyright f__copyright f__copyright f__copyright .";
+    }
+  
+    .footer__contacts {
+      padding-bottom: 30px;
+  
+      text-align: center;
+      letter-spacing: 0.5px;
+    }
+  
+    .company-list,
+    .legal-list,
+    .neutronmail-list {
+      margin: 0;
+      padding-bottom: 25px;
+  
+      text-align: right;
+    }
+  }
+  
+  @media (max-width: 1000px) {
+    .get-app-links-list {
+      background-position-x: 45%;
+    }
+  }
+  
+  @media (max-width: 870px) {
+    .security .container {
+      grid-template-rows: auto auto;
+      grid-template-columns: 1fr 4fr 4fr 4fr 1fr;
+      grid-template-areas: ". s__privacy s__encryption s__anonymous ."
+      ". s__main s__main . .";
+      padding: 50px 0 100px;
+    }
+  
+    .security__item:not(.security__item--main) {
+      padding: 0 30px;
+    }
+  
+    .security__item--main {
+      padding: 0 39px 58px 20px;
+    }
+  
+    .security__item--encryption::before,
+    .security__item--anonymous::before {
+      display: none;
+    }
+  
+    .get-app-links-list {
+      background: none;
+    }
+  }
+  
+  @media (max-width: 720px) {
+    .security .container {
+      grid-template-rows: repeat(4, auto);
+      grid-template-columns: 1fr;
+      grid-template-areas: "s__main"
+      "s__privacy" "s__encryption" "s__anonymous";
+      padding-bottom: 30px;
+    }
+  
+    .security__link {
+      display: none;
+    }
+  
+    .security__item {
+      margin-bottom: 30px;
+      padding: 30px 50px;
+  
+      text-align: center;
+    }
+  
+    .security__item--privacy .security__subtitle::before {
+      left: 15%;
+    }
+  
+    .security__item--encryption .security__subtitle::before {
+      left: 15%;
+    }
+  
+    .security__item--anonymous .security__subtitle::before {
+      left: 17%;
+    }
+  
+    .security__text {
+      padding: 10px 30px;
+    }
+  
+    .background {
+      background: url("../assets/imgs/bg-shadow.png") no-repeat 50% 205px / cover;
+    }
+  
+    .slider {
+      width: 80%;
+    }
+  
+    .download {
+      grid-template-rows: repeat(3, auto);
+      grid-template-columns: 1fr 6fr 1fr;
+      grid-template-areas: ". d__title ."
+      ". d__text ."
+      ". d__links .";
+      padding-top: 40px;
+      padding-bottom: 60px;
+    }
+  
+    .footer__title {
+      text-align: left;
+    }
+  
+    .footer__company,
+    .footer__legal,
+    .footer__neutronmail {
+      padding: 5px;
+    }
+  
+    .company-list,
+    .legal-list,
+    .neutronmail-list {
+      padding: 0 11px 10px 0;
+  
+      list-style: initial;
+      list-style-position: inside;
+      text-align: left;
+    }
+  
+    .company-list__item::after,
+    .legal-list__item::after,
+    .neutronmail-list__item::after {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 540px) {
+    .burger-container {
+      display: block;
+      grid-area: burger;
+      margin: 10px;
+    }
+  
+    .navigation {
+      grid-template-columns: auto;
+      grid-template-rows: repeat(3, auto);
+      grid-template-areas: "burger" "user-nav" "site-nav";
+      justify-content: flex-end;
+    }
+  
+    .site-navigation, 
+    .user-navigation {
+      z-index: 2;
+      background-color: #ffffff;
+      width: 100vw;
+      transform: translateX(-40%);
+    }
+  
+    .site-navigation__item, 
+    .user-navigation__item {
+      font-size: 3rem;
+      width: 100vw;
+      text-align: center;
+    }
+  
+    .site-navigation__link, 
+    .user-navigation__button {
+      font-size: 2.8rem;
+      width: 100vw;
+      text-align: center;
+    }
+  
+    .user-navigation__button--login,
+    .site-navigation__link {
+      padding-left: 0;
+    }
+  
+    .user-navigation__button--login::before {
+      display: none;
+    }
+  
+    .user-navigation__button--signup {
+      background: none;
+      color: #101010;
+      box-shadow: none;
+    }
+  
+    .site-navigation,
+    .user-navigation,
+    .journals-list {
+      display: none;
+    }
+  
+    .security__item--privacy .security__subtitle::before,
+    .security__item--encryption .security__subtitle::before,
+    .security__item--anonymous .security__subtitle::before {
+      display: none;
+    }
+  
+   html {
+     font-size: 8px;
+   }
+  
+   .download-links li,
+   .privacy-links-list__link,
+   .get-app-links-list__item {
+    margin: 5px;
+   }
+  
+    .feedbacks,
+    .feedbacks .container,
+    .slider {
+      padding-top: 10px;
+    }
+  
+    .feedback-item {
+      padding-left: 30px;
+    }
+  
+    .slider-controls {
+      left: 15px;
+    }
+  
+   .footer .container {
+      grid-template-rows: repeat(4, auto);
+      grid-template-columns: 1fr 6fr 1fr;
+      grid-template-areas: ". f__contacts  ."
+      ". f__company ."
+      ". f__legal ."
+      ". f__NeutronMail ."
+      "f__social f__social f__social "
+      "f__copyright f__copyright f__copyright";
+    }
+  
+    .footer__title {
+      text-align: center;
+    }
+  
+    .company-list,
+    .legal-list,
+    .neutronmail-list {
+      text-align: center;
+    }
+  }
